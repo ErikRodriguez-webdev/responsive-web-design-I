@@ -4,11 +4,10 @@
   padding: 0;
   margin: 0;
   max-width: 100%;
-  border: 0px solid red;
 }
 
 .mainContainerBox {
-  border: 1px solid gray;
+  border: 1px solid black;
   margin: 1% 20% 5% 20%;
   padding: 15px;
 }
@@ -93,5 +92,23 @@
 /*MEDIA QUERIES HERE*/
 /*Tablet version here*/
 @media (max-width: 800px) {
+  .logo {
+    width: 30%;
+  }
+  .topRow {
+    flex-direction: column-reverse;
+  }
+  .topRow div {
+    margin-top: 2%;
+    width: 95%;
+    justify-content: space-evenly;
+  }
+  .codeImage {
+    display: none;
+  }
+  .innovationTitle {
+    padding-top: 0px;
+    width: 80%;
+  }
 }
 /*Phone version here*/
