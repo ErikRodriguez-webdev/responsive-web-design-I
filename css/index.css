@@ -1,3 +1,149 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
 
+.mainContainerBox {
+  border: 1px solid black;
+  margin: 1% 20% 5% 20%;
+  padding: 15px;
+}
 
+.topRow a {
+  color: gray;
+  text-decoration: none;
+  margin-top: 1%;
+}
+
+.topRow {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/*Top of Body*/
+.innovationTitle h1 {
+  font-size: 75px;
+  margin-top: 20%;
+  text-align: center;
+}
+
+.innovationTitle p {
+  font-size: 25px;
+  border: 2px solid black;
+  text-align: center;
+  width: 75%;
+  margin-left: 10%;
+}
+
+.mainBody {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
+
+/*Middle of Body*/
+.middleBody {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.bottomBox {
+  width: 40%;
+}
+
+.middlePhoto {
+  display: flex;
+  justify-content: center;
+}
+/*Lower of Body*/
+.lowerBody {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.bottomBoxLast {
+  width: 30%;
+}
+
+/*Footer*/
+.bottomHome {
+  margin-top: 3%;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+}
+
+/*SERVICES STYLE SHEET STARTS HERE*/
+/*same Nav as Homepage, logo, services*/
+.topPhoto {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.serviceHeader {
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 3%;
+}
+
+/*BoxOfText grid*/
+.boxStyles {
+  border: 1px solid black;
+  background: lightgray;
+  width: 43%;
+  padding: 15px;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+
+.buttonFormat {
+  border-color: black;
+  border-width: 3px;
+  border-radius: 5px;
+  background: whitesmoke;
+  margin-top: 3%;
+  text-align: center;
+  width: 25%;
+}
+
+.boxesOfText {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  width: 95%;
+}
+
+/*footer, service info image, copyright was same as homepage*/
+.footerSection {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.footerTextWithList p {
+  width: 75%;
+}
+
+.footerServiceImage {
+  width: 100%;
+}
+
+ul {
+  margin-top: 1%;
+  margin-left: 2%;
+  list-style-type: square;
+  list-style-position: inside;
+}
