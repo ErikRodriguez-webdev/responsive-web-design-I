@@ -1,3 +1,158 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
 
+.mainContainerBox {
+  border: 1px solid black;
+  margin: 1% 20% 5% 20%;
+  padding: 15px;
+}
 
+.topRow div a {
+  color: gray;
+  text-decoration: none;
+  margin-top: 1%;
+}
+
+.topRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.topRow div {
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+}
+
+/*Top of Body*/
+.innovationTitle h1 {
+  font-size: 75px;
+  margin-top: 20%;
+  text-align: center;
+}
+
+.innovationTitle p {
+  font-size: 25px;
+  border: 2px solid black;
+  text-align: center;
+  width: 75%;
+  margin-left: 10%;
+}
+
+.mainBody {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
+
+/*Middle of Body*/
+.middleBody {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.bottomBox {
+  width: 40%;
+}
+
+.middlePhoto {
+  display: flex;
+  justify-content: center;
+}
+/*Lower of Body*/
+.lowerBody {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.bottomBoxLast {
+  width: 30%;
+}
+
+/*Footer*/
+.bottomHome {
+  margin-top: 3%;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+}
+/*MEDIA QUERIES HERE*/
+/*Tablet version here*/
+@media (max-width: 800px) {
+  .logo {
+    width: 35%;
+  }
+  .topRow {
+    flex-direction: column-reverse;
+  }
+  .topRow div {
+    margin-top: 2%;
+    width: 95%;
+    justify-content: space-evenly;
+  }
+  .codeImage {
+    display: none;
+  }
+  .innovationTitle {
+    padding-top: 0px;
+    width: 80%;
+  }
+}
+/*Phone version here*/
+@media (max-width: 500px) {
+  .topRow div {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+  .topRow div a {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: black;
+  }
+  .innovationTitle h1 {
+    font-size: 50px;
+  }
+  .innovationTitle p {
+    font-size: 18px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  p {
+    font-size: 14px;
+  }
+  .middleBody {
+    flex-direction: column;
+  }
+  .bottomBox {
+    width: 95%;
+    margin: 5%;
+  }
+  .lowerBody {
+    flex-direction: column;
+  }
+  .bottomBoxLast {
+    width: 95%;
+    margin: 5%;
+  }
+  .bottomHome {
+    margin: 5% 0% 5% 0%;
+  }
+  .copyright {
+    margin-top: 5%;
+  }
+}
