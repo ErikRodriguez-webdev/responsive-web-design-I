@@ -93,7 +93,7 @@
 /*Tablet version here*/
 @media (max-width: 800px) {
   .logo {
-    width: 30%;
+    width: 35%;
   }
   .topRow {
     flex-direction: column-reverse;
@@ -112,3 +112,47 @@
   }
 }
 /*Phone version here*/
+@media (max-width: 500px) {
+  .topRow div {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+  .topRow div a {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: black;
+  }
+  .innovationTitle h1 {
+    font-size: 50px;
+  }
+  .innovationTitle p {
+    font-size: 18px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  p {
+    font-size: 14px;
+  }
+  .middleBody {
+    flex-direction: column;
+  }
+  .bottomBox {
+    width: 95%;
+    margin: 5%;
+  }
+  .lowerBody {
+    flex-direction: column;
+  }
+  .bottomBoxLast {
+    width: 95%;
+    margin: 5%;
+  }
+  .bottomHome {
+    margin: 5% 0% 5% 0%;
+  }
+  .copyright {
+    margin-top: 5%;
+  }
+}
